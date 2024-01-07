@@ -1,0 +1,78 @@
+Index: backoffice/application/controllers/admin/Excel.php
+===================================================================
+--- backoffice/application/controllers/admin/Excel.php	(revision 30167)
++++ backoffice/application/controllers/admin/Excel.php	(revision 30169)
+@@ -37,8 +37,14 @@
+         $date = date("Y-m-d H:i:s");
+         $from_date = $this->input->get('from_date');
+         $to_date = $this->input->get('to_date');
++        if( $from_date!='')
++        {
++            $from_date = $from_date . " 00:00:00";
++        }
++        if($to_date!=''){ 
++           $to_date = $to_date . " 23:59:59";
++        }
+ 
+-
+         $excel_array = $this->excel_model->getJoiningReportWeekly($from_date, $to_date);
+         $this->excel_model->writeToExcel($excel_array, lang('user_joining_report') . " ($date)");
+     }
+@@ -85,6 +91,13 @@
+         $date = date("Y-m-d H:i:s");
+         $from_date  = $this->input->get('from_date');
+         $to_date = $this->input->get('to_date');
++        if( $from_date!='')
++        {
++            $from_date = $from_date . " 00:00:00";
++        }
++        if($to_date!=''){ 
++           $to_date = $to_date . " 23:59:59";
++        }
+         $type = $this->session->userdata("inf_commision_type");
+ 
+         $excel_array = $this->excel_model->getCommissionReport($from_date, $to_date, $type, $user_id);
+@@ -145,7 +158,13 @@
+         $date = date("Y-m-d H:i:s");
+         $from_date = $this->input->get('from_date');
+         $to_date = $this->input->get('to_date');
+-
++        if( $from_date!='')
++        {
++            $from_date = $from_date . " 00:00:00";
++        }
++        if($to_date!=''){ 
++           $to_date = $to_date . " 23:59:59";
++        }
+         $excel_array = $this->excel_model->getActiveInactiveReport($from_date, $to_date);
+         $this->excel_model->writeToExcel($excel_array, lang('activate_deactivate_report') . " ($date)");
+     }
+@@ -382,6 +401,13 @@
+         $date = date("Y-m-d H:i:s");
+         $from_date  = $this->input->get('from_date');
+         $to_date = $this->input->get('to_date');
++        if( $from_date!='')
++        {
++            $from_date = $from_date . " 00:00:00";
++        }
++        if($to_date!=''){ 
++           $to_date = $to_date . " 23:59:59";
++        }
+         $type = $this->session->userdata("inf_commision_type");
+         
+         $csv_array = $this->excel_model->getCommissionReport($from_date, $to_date, $type, $user_id);
+@@ -560,7 +586,13 @@
+         $date = date("Y-m-d H:i:s");
+         $from_date = $this->input->get('from_date');
+         $to_date = $this->input->get('to_date');
+-
++        if( $from_date!='')
++        {
++            $from_date = $from_date . " 00:00:00";
++        }
++        if($to_date!=''){ 
++           $to_date = $to_date . " 23:59:59";
++        }
+         $excel_array = $this->excel_model->getActiveInactiveReport($from_date, $to_date);
+         $this->create_csv($excel_array, lang('activate_deactivate_report') . " ($date)");
+     }

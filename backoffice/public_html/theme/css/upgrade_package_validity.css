@@ -1,0 +1,155 @@
+.upgrade-profile{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 15px;
+    margin-bottom: 15px;
+  }
+  .profile-avatar img {
+    max-width: 90px;
+    border-radius: 100%;
+}
+.profile-name {
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-transform: none;
+}
+.profile-name2 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.profile-email {
+  margin-top: 0px;
+    margin-bottom: 25px;
+}
+.renew_upgrade, .view_user {
+    padding: 7px 20px 8px 20px;
+    margin-bottom: 0;
+    border-radius: 3px;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    border: 1px solid #7265ba;
+    background: #7265ba;
+    color: #fff;
+    font-weight: 400;
+}
+.renew_upgrade:hover, .view_user:hover {
+        background:#55489c;
+        color: #fff;
+      }
+.upgrade-dec{
+  font-size: 18px;
+}
+.upgrade-dec table tr td:nth-child(2){
+  padding:3px 10px;
+}
+.buttonGrp {
+  margin-top:5px;
+}
+.buttonGrp a{  
+  display: inline-block; width: auto; margin-right: 20px; margin-top: 20px; }
+
+  .tab-section{ 
+    display: table;
+    padding: 10px 30px;
+    width: 100%;    max-width: 1300px;}
+  .tab-container{
+    background: #F6F6F6;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 30px;
+  }
+  div.bhoechie-tab-container {
+    z-index: 10;
+    background-color: #fbfbfb;
+    padding: 0 !important;
+    border-radius: 3px;
+    -moz-border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    margin-top: 20px;
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity=97);
+    margin-bottom: 61px;
+    max-width: 1280px;
+}
+.bhoechie-tab-menu{
+  background: #F6F6F6;
+}
+.bhoechie-tab{
+  
+}
+.upgradeDetails{
+   display: inline-block ; border: 1px solid #cecece; border-radius: 3px;padding:5px 10px; margin-top: 10px;}
+   .upgradeDetailsContainer>div{
+   display: inline-block ; border-left: 1px solid #cecece;    padding: 5px 25px 5px 25px;
+    margin: 10px 8px;}
+   .upgradeDetails  .upgradeDetailsContainer>div:first-child{
+    border-left: 0px solid #eee;padding-left: 15px; }
+    .upgradeDetailsContainer>div h4{
+      font-size: 14px; margin-top: 0px;
+      margin-bottom: 3px;
+    }
+    .upgradeDetailsContainer>div p{
+      font-size: 18px; margin-bottom: 0px;
+      color: #333;
+    }
+    .anount{
+      display: table;
+    border: 1px solid #F5E694;
+    background: #FFF3B7;
+    padding: 8px 20px 8px 20px;
+    margin: 25px 0px 10px 0px;
+    color: #222;
+    font-size: 18px;
+    border-radius: 4px;
+    }
+    .anount span{
+padding-left: 5px; font-weight: 600;
+     }
+     .tabH{ 
+      bottom: -14px;
+    position: relative;
+    font-size: 17px;
+    color: #333;
+}
+.tab-container .list-group-item {
+  position: relative;
+    display: block;
+    padding: 12px 15px 20px 22px;
+    margin-bottom: 0px;
+    background-color: #f6f6f6;
+    border: 1px solid #d0d0d0;
+    margin-top: -1px;
+    margin-left: -1px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+.tab-container .list-group-item.active  .tabs_h4 i{
+  color: #fff;
+}
+.tab-container .list-group-item br{ 
+  display: none;}
+  .tab-container .list-group-item .tabs_h4{    
+    margin-right: 5px;
+    font-size: 26px;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 30px;
+}
+.select-Package{
+   padding:15px 0px 1px 0px;}
+.select-Package select{
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.select-Package label{    
+  display: block;
+    font-size: 13px;
+    margin-bottom: 2px;}

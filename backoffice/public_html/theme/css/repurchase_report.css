@@ -1,0 +1,45 @@
+    .new-dashboard-tile-ewallet-all {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .dataTables_length select
+    {
+      margin-right: -9px;
+      width: 33px;
+    }
+
+    table.dataTable thead .sorting {
+      /*background: url('../images/sort_both.png') no-repeat center right;*/
+    }
+    table.dataTable thead .sorting_asc {
+      /*background: url('images/sort_asc.png') no-repeat center right;*/
+    }
+    table.dataTable thead .sorting_desc {
+      /*background: url('images/sort_desc.png') no-repeat center right;*/
+    }
+    table.dataTable thead .sorting_asc_disabled {
+      /*background: url('images/sort_asc_disabled.png') no-repeat center right;*/
+    }
+    table.dataTable thead .sorting_desc_disabled {
+      /*background: url('images/sort_desc_disabled.png') no-repeat center right;*/
+    }
+    .dt-buttons {
+        left: 75%;
+    }
+
+    table > tbody > tr:last-child > td {
+          border-top: 1px solid #000 !important;
+          border-bottom: 1px solid #000 !important;
+      }
+      table > tbody > tr:first-child > td {
+          border-top: 1px solid #ddd !important;
+          border-bottom: 1px solid #ddd !important;
+      }
+      .main-content-new-dashboard {
+        height: 70px;
+      }
+    @media (max-width: 1024px) {
+    .new-dashboard-tile-ewallet-all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+  }

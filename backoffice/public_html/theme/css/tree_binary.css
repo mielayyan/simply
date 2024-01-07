@@ -1,0 +1,45 @@
+.jOrgChart .node { margin: -5px 5px;}
+.line-expand { padding: 27px;}
+.line-expand-right {
+	margin-left: 0;
+}
+.line-expand-down {
+	margin-left: 54px;
+}
+
+
+/*Start auto fit tree*/
+
+.jOrgChart td {
+    width: 50%;
+}
+
+.tree_icon {
+    max-width: 100%;
+}
+.demo_name_style {
+  max-width: 100%;
+      width: auto;
+          line-height: 1;
+              padding: 3px 3px 4px 3px;
+}
+
+
+.line-expand {
+    padding: 33.5px;
+}
+
+
+.line-expand {
+    padding: unset;
+    margin: auto;
+}
+.line-expand-down {
+    margin-left: -2px;
+    left: 50%;
+}
+/*Close auto fit tree*/
+
+.jOrgChart table {
+    width: 100% !important;
+}

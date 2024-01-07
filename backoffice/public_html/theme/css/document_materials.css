@@ -1,0 +1,50 @@
+
+   .userDownloadSection{
+    display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    grid-gap: 17px;
+   }
+   .userDownloadContainer{
+    display: grid;grid-template-columns:65px 5fr 3fr; 
+    grid-gap: 10px;
+    padding: 25px 10px;
+    margin-bottom: 0px;
+   }
+   .UD-title{
+    font-size: 20px;
+    color: #333;
+   }
+   .UD-date{
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: -2px;
+   }
+   .bg-green{
+    color: #fff;
+    background-color: #34a54f;
+   }
+   .bg-green:hover{
+    color: #fff;
+    background-color: #279040;
+   }
+   .bg-red {
+        color: #fff;
+        background-color: #f05050;
+    }
+    .bg-red:hover {
+        color: #fff!important;
+        background-color: #e24444;
+    }
+   .UD-actions a i{
+    margin-right: 5px;
+   }
+   @media screen and (max-width:1024px){
+        .userDownloadContainer{
+            padding:10px 10px;    
+        }
+        .UD-details{
+            grid-column: 2/4;
+        }
+        .UD-actions{
+            grid-column: 1/3;
+        }
+    }

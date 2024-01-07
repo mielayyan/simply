@@ -1,0 +1,453 @@
+<?php
+
+$lang['change_password'] = "﻿ تغيير كلمة المرور ";
+$lang['click_here_to_see_more_help_on_this_page'] = "﻿ انقر هنا لمعرفة المزيد من التعليمات في هذه الصفحة! ";
+$lang['dashboard'] = "﻿ لوحة المعلومات ";
+$lang['logout'] = "﻿ تسجيل الخروج ";
+$lang['profile_management'] = "﻿ إدارة الشخصية ";
+$lang['welcome'] = "﻿ اهلا وسهلا ";
+$lang['you_must_select_a_file'] = "﻿ يجب تحديد ملف ";
+/////////////////for footer/////////////////////////////////////////////////////
+$lang['click_here_to_place_a_feedback_for_support'] = "﻿ انقر هنا لوضع \ ردود الفعل للدعم\  ";
+$lang['click_here_to_upgrade'] = "﻿ انقر هنا للترقية ";
+$lang['developed_by_infinite_open_source_solution_llp'] = "﻿ تطوير حلول المصدر المفتوح بلا حدود LLP™ ";
+$lang['for_discussion_form'] = "﻿ لمنتدى للنقاش ";
+$lang['once_the_demo_is_ready_you_can_simply_move_the_demo_to_your_own_domain_name'] = "﻿ بمجرد العرض على استعداد، يمكنك ببساطة نقل التجريبي لاسم المجال الخاص بك. ";
+$lang['please'] = "﻿ رجاءً ";
+$lang['this_demo_can_customize_your_own_mlm_plan_with_fully_licensed_mode'] = "﻿ يمكن تخصيص هذا العرض الخاص بك \ الامتيازات والرهون البحرية خطة\  مع وضع مرخصة بشكل كامل. ";
+$lang['this_demo_will_be_automatically_deleted_after_48_hours_unless_upgraded'] = "﻿ سيتم حذف هذا العرض تلقائياً بعد 48 ساعة ما لم ترقية. ";
+$lang['use_google_chrome_or_mozilla_firefox_for_better_view'] = "﻿ استخدام جوجل كروم أو موزيلا فايرفوكس لتحسين \ تجربة المستخدم\  ";
+$lang['website'] = "﻿ موقع على شبكة الإنترنت ";
+$lang['you_can_upgrade_this_demo_to_one_month_or_can_purchase_the_software'] = "﻿ يمكن ترقية هذا العرض التوضيحي لمدة شهر واحد أو يمكن شراء البرمجيات. ";
+//////////////FOR USER header///////////////////////////////////////////////////
+$lang['BLANK'] = "﻿ فارغة ";
+$lang['currency'] = "﻿ تحويل العملات ";
+$lang['edit'] = "﻿ تحرير ";
+$lang['language'] = "﻿ اللغة ";
+$lang['mail_id'] = "﻿ معرف البريد ";
+$lang['name'] = "﻿ الاسم ";
+$lang['new_affiliates'] = "﻿ الفروع الجديدة ";
+$lang['new_messages'] = "﻿ رسائل جديدة ";
+$lang['sEmptyTable'] =   "ليست هناك بيانات متاحة في الجدول";
+$lang['sLoadingRecords']   = "جارٍ التحميل...";
+$lang['sProcessing']    =  "جارٍ التحميل...";
+$lang['sLengthMenu']    =  " عدد الصفوف في الصفحة_MENU_";
+$lang['sZeroRecords']  =  "لم يعثر على أية سجلات";
+$lang['sInfo']    =        "إظهار _START_ إلى _END_ من أصل _TOTAL_ مدخل";
+$lang['sInfoEmpty']  =   "يعرض 0 إلى 0 من أصل 0 سجل";
+$lang['sInfoFiltered']    = "(منتقاة من مجموع _MAX_ مُدخل)";
+$lang['sInfoPostFix']   =  "";
+$lang['sSearch']  =       "ابحث:";
+
+$lang['applyLabel']    ="تطبيق";
+$lang['cancelLabel']  ="إلغاء";
+$lang['fromLabel']    ="من عند";
+$lang['toLabel']   =  "إلى";
+$lang['customRangeLabel']  ="مخصص";
+
+$lang['All']    ="الكل";
+$lang['Today']  ="اليوم";
+$lang['ThisWeek']    ="هذا الاسبوع";
+$lang['ThisMonth']   =  "هذا الشهر";
+$lang['ThisYear']  ="هذا العام";
+
+$lang['search'] = "﻿ البحث عن ";
+$lang['see_all_messages'] = "﻿ مشاهدة كافة الرسائل ";
+$lang['select_language'] = "﻿ حدد اللغة ";
+$lang['status'] = "﻿ مركز ";
+$lang['submit'] = "﻿ إرسال ";
+$lang['this_option_is_not_available_for_preset_users'] = "﻿ لا يتوفر هذا الخيار للمستخدمين مسبقاً ";
+$lang['this_option_is_not_available_in_preset_demos'] = "﻿ لا يتوفر هذا الخيار في العينات مسبقاً ";
+$lang['total_amount'] = "﻿ المبلغ الإجمالي ";
+$lang['update'] = "﻿ التحديث ";
+$lang['upgrade_now'] = "﻿ ترقية الآن! ";
+$lang['view'] = "﻿ طريقة العرض ";
+$lang['welcome_to'] = "﻿ مرحبا بكم في ";
+$lang['you_have_no_new_mail'] = "﻿ لديك لا بريد جديد ";
+///////////////////////Notification Messages---->START///////////////////////////
+$lang['user_epin added'] = "﻿ تتم إضافة المستخدم % s ابن من عنوان IP % s ";
+$lang['user_epin purchased'] = "﻿ ابن المستخدم % s تم شراؤها من عنوان IP % s ";
+$lang['user_epin requested'] = "﻿ طلب المستخدم % s أبين من عنوان IP % s ";
+$lang['user_feedback added'] = "﻿ تتم إضافة المستخدم % s التغذية المرتدة من عنوان IP % s ";
+$lang['user_feedback deleted'] = "﻿ حذف المستخدم % s التغذية المرتدة من عنوان IP % s ";
+$lang['user_fund transferred'] = "﻿ نقل المستخدم % s الصندوق من عنوان IP % s ";
+$lang['user_invitation sent'] = "﻿ المستخدم % s بعث بدعوة من عنوان IP % s ";
+$lang['user_login'] = "﻿ المستخدم تسجيل الدخول من عنوان IP % s % s ";
+$lang['user_Logout'] = "﻿ المستخدم % s بتسجيل الخروج من عنوان IP % s ";
+$lang['user_mail deleted'] = "﻿ المستخدم % s حذف البريد من عنوان IP % s ";
+$lang['user_mail from downline deleted'] = "﻿ المستخدم % s حذف البريد من دوونلين من عنوان IP % s ";
+$lang['user_mail sent'] = "﻿ المستخدم % s الرسائل المرسلة من عنوان IP % s ";
+$lang['user_mail to downline deleted'] = "﻿ حذف المستخدم % s البريد إلى دوونلين من عنوان IP % s ";
+$lang['user_mail to downline sent'] = "﻿ المستخدم % s أرسلت البريد إلى دوونلين من عنوان IP % s ";
+$lang['user_password change'] = "﻿ المستخدم % s تغيير كلمة المرور من عنوان IP % s ";
+$lang['user_password changed'] = "﻿ المستخدم % s تغيير كلمة المرور من عنوان IP % s ";
+$lang['user_payout request sent'] = "﻿ المستخدم % s أرسل طلب دفع تعويضات من عنوان IP % s ";
+$lang['user_profile updated'] = "﻿ المستخدم % s تحديث التشكيل الجانبي من عنوان IP % s ";
+$lang['user_Register new member'] = "﻿ تسجيل المستخدم % s مستخدم جديد من IP % s ";
+$lang['user_send transaction password'] = "﻿ المستخدم % s إرسال حركة مرور IP % s ";
+$lang['user_ticket created'] = "﻿ إنشاء المستخدم % s التذاكر من عنوان IP % s ";
+$lang['user_ticket reply sent'] = "﻿ المستخدم % s قد أرسل الرد التذاكر من عنوان IP % s ";
+$lang['user_transaction password sent'] = "﻿ المستخدم % s إرسال كلمة المرور الحركة من عنوان IP % s ";
+///////////////////////Notification Messages---->END////////////////////////////
+///////////////////////ANDROID PUSH MESSAGES --->START////////////////////////////
+$lang['you_received_commission_from_user'] = "﻿ يمكنك تلقي % s % s من % s ";
+///////////////////////ANDROID PUSH MESSAGES --->END////////////////////////////
+$lang['admin_user_name'] = "﻿ اسم المستخدم admin ";
+$lang['allow_max_50_user'] = "﻿ يمكنك التسجيل كحد أقصى للمستخدمين 50 في بنقرة واحدة، إذا قمت بإدخال اسم المستخدم ك testuser مظهر اسم المستخدم الذي تم إنشاؤه مثل testuser، testuser1، testuser2، إلخ... ";
+$lang['auto_login'] = "﻿ تأمين الدخول ";
+$lang['dont_reload_the_page'] = "﻿ تسجيل السائبة تأخذ وقتاً أطول من التسجيل العادية، ر \ حتى من دون\  إعادة تحميل الصفحة بعد إرسال النموذج ";
+$lang['login_as_another'] = "﻿ تسجيل الدخول كاخر؟ ";
+$lang['note'] = "﻿ وتلاحظ ";
+$lang['please_enter_password_un_lock'] = "﻿ الرجاء إدخال كلمة المرور الخاصة بك لتأمين الأمم المتحدة. ";
+$lang['support_center'] = "﻿ مركز الدعم ";
+$lang['user_start_like_user1_upto_limit'] = "﻿ فقط خيار المشاركة الحرة المتاحة  ";
+
+$lang['deducted_for_upgrade_of'] = "يتم خصمها لترقية العضوية";
+$lang['deducted_for_registration_of'] = "خصم لتسجيل";
+$lang['deducted_for_repurchase_by'] = "خصم لإعادة الشراء من قبل";
+$lang['deducted_for_membership_renewal_of'] = "خصم من أجل تجديد العضوية";
+$lang['deducted_for_payout_request'] = "خصم لطلب الدفع";
+$lang['payout_released_by_manual'] = "خصم لإصدار العوائد من قبل المشرف";
+$lang['transfer_from'] = "التحويل من";
+$lang['fund_transfer_to'] = "نقل إلى";
+$lang['deducted_by'] = "خصمها";
+$lang['credited_by'] = "معتمدة من قبل";
+$lang['request_id'] = "معرف الطلب";
+$lang['released_amount'] = "صدر المبلغ";
+$lang['credited_for_payout_request_delete'] = "كريدت فور بايوت ريكست ديليت";
+$lang['payout_released_for_request'] = "دفع تعويضات صدر حسب الطلب";
+$lang['deducted_for_pin_purchase'] = "خصم لشراء دبوس";
+$lang['credited_for_pin_purchase_delete'] = "معتمدة لشراء دبوس حذف";
+$lang['previous_balance'] = "الرصيد السابق";
+$lang['referral'] = "عمولة الإحالة";
+$lang['leg'] = "اللجنة الثنائية";
+$lang['rank_bonus'] = "رتبة اللجنة";
+$lang['level_commission'] = "عمولة المستوى";
+$lang['repurchase_level_commission'] = "عمولة المستوى بإعادة الشراء";
+$lang['repurchase_leg'] = "عمولة ثنائية بإعادة الشراء";
+$lang['board_commission'] = "لجنة المجلس";
+$lang['you_have_no_notification'] = "ليس لديك أية إشعارات";
+$lang['signup'] = "سجل";
+$lang['sorry_not_allowed_in_demo'] = "عذرا غير مسموح به في العرض التوضيحي";
+$lang['errors_check'] = "يرجى التحقق من القيم التي أرسلتها";
+$lang['mail_notification'] = "إشعار البريد";
+$lang['notification'] = "إعلام";
+$lang['change_your_currency'] = "غير عملتك";
+$lang['change_your_language'] = "غير اللغة";
+$lang['action'] = "عمل";
+$lang['invalid_username'] = "اسم المستخدم غير صالح";
+$lang['sl_no'] = "#";
+$lang['slno'] = "#";
+$lang['no'] = "لا";
+$lang['facebook_invite'] = "دعوة الفيسبوك";
+$lang['released'] = "صدر";
+$lang['deleted_payout_release'] = "تم حذف إصدار العوائد";
+$lang['inactive_payout_release'] = "إصدار عوائد المعطل";
+$lang['volume_taken_for_commission_repurchase'] = "لجنة ثنائي من قبل إعادة الشراء";
+$lang['user_name'] = "اسم المستخدم";
+
+$lang['notes'] = "ملاحظات";
+$lang['note_pending_signup_payment_method'] = "يمكن إجراء اشتراك العضو من خلال طريقة دفع محددة في انتظار الموافقة عليه من خلال تمكين نموذج الحالة هنا.";
+$lang['note_tax_transaction_fee'] = "<p> سيتم خصم رسوم الخدمة لكل حساب من حسابات العمولة و تس. </ p> <p> ستتم إضافة رسوم المعاملة لكل معاملة من المحفظة الإلكترونية. </ p>";
+$lang['note_epin_purchase'] = "يمكن للمستخدمين شراء E- دبوس باستخدام التوازن E- المحفظة.";
+$lang['note_signup_approval'] = "لعرض قائمة تسجيلات الأعضاء التي لم تتم الموافقة عليها بعد، ويمكن الموافقة عليها من هنا.";
+$lang['note_payout_confirm_bank_transfer'] = "لعرض قائمة العوائد المعلقة من خلال التحويل المصرفي. يمكن تأكيد الدفعات التي يتم نقلها بنجاح إلى الحساب المصرفي للمستخدم هنا.";
+$lang['note_payout_release_manual'] = "لعرض قائمة العوائد بناء على رصيد المستخدم الحافظة. يمكن للمشرف دفع المبلغ عن طريق اختيار طريقة العائد.";
+$lang['note_payout_release_user_request'] = "لعرض قائمة بطلبات العائد. يمكن للمشرف دفع المبلغ عن طريق اختيار طريقة العائد أو رفض طلب العوائد.";
+$lang['note_business_volume'] = "يظهر تاريخ النقاط المحدثة على الساق اليسرى المستخدم والساق اليمنى (على الاشتراك، وشراء واللجنة الثنائية)";
+$lang['note_fund_credit_debit'] = "المشرف يمكن إضافة / خصم صندوق إلى / من المستخدم E- المحفظة.";
+$lang['note_fund_transfer'] = "يمكن للمستخدم ترانفر صندوق من E- المحفظة إلى المحفظة الإلكترونية للمستخدم آخر عن طريق إدخال كلمة المرور المعاملة.";
+$lang['note_forgot_transaction_password'] = "<p> يمكن للمستخدمين إعادة تعيين كلمة مرور المعاملة المنسية عن طريق إرسال هذا النموذج. </ p> <p> سيتم إرسال رابط إعادة تعيين كلمة المرور إلى عنوان البريد الإلكتروني المحدد. </ p>";
+$lang['note_payout_request'] = "يمكن للمستخدمين سحب المبلغ المطلوب من المحفظة الإلكترونية عن طريق إدخال المبلغ وكلمة المرور الصفقة. سيتم إضافة المبلغ إلى حساب المستخدم بعد تأكيد المشرف.";
+$lang['note_clear_cache'] = "يمكن مسح بيانات النظام المخزنة مؤقتا من هنا.";
+$lang['note_logout_setting'] = "سيتم تسجيل خروج المستخدم بعد وقت محدد من الخمول. يتم تحديد الوقت بالثواني.";
+$lang['note_currency_management'] = "يمكن للنظام تحديث وتفعيل وتعطيل العملات. يمكن للنظام تحديد العملة الافتراضية بحيث يتم حفظ أي قيمة بتلك العملة.";
+$lang['note_autoresponder'] = "يمكن للنظام إضافة رسائل البريد الإلكتروني الرد التلقائي عن طريق تحديد الموضوع والمحتوى وتاريخ. سيقوم النظام تلقائيا بإرسال البريد الإلكتروني لجميع العملاء المحتملين في التاريخ المحدد.";
+$lang['note_upload_materials'] = "يمكن للمشرف مشاركة المعلومات ذات الصلة للمستخدمين في النظام عن طريق تحميل المستندات ووصفها. يمكن للمستخدمين تنزيل هذه المستندات.";
+$lang['note_news'] = "المشرف يمكن إضافة وتحرير وحذف المعلومات الإخبارية. سيتم عرض الأخبار المضافة في لوحة القيادة المستخدم.";
+
+$lang['permission_denied'] = "طلب الاذن مرفوض";
+$lang['configuration_success'] = "تم تحديث التهيئة بنجاح.";
+$lang['configuration_error'] = "حدث خطأ أثناء تحديث التهيئة.";
+$lang['back'] = "الى الخلف";
+$lang['search_member'] = "بحث في العضو";
+$lang['search_member_error'] = "يجب إدخال اسم مستخدم";
+$lang['all'] = "الكل";
+$lang['user_overview'] = "نظرة عامة على المستخدم";
+$lang['cancel'] = "إلغاء";
+$lang['copy'] = "نسخ";
+$lang['you_have_n_mail'] = "لديك %s من الرسائل الجديدة";
+$lang['missed_notification'] = "إشعار لم يرد عليه";
+$lang['documents'] = "مستندات";
+
+$lang['you_have_n_payout'] = "لديك عائد %s معلق";
+$lang['you_have_n_feedback'] = "تم تلقي %s من التعليقات";
+$lang['you_have_n_epin'] = "لديك %s طلب إبين معلق";
+$lang['you_have_n_payout_released'] = "تم إصدار أرباح %s";
+$lang['you_have_n_epin_confirmed'] = "تم تأكيد طلب إيبين %s";
+
+$lang['finish'] = "إنهاء";
+$lang['next'] = "التالى";
+
+$lang['note_replication_configuration_page'] = "يمكن تكوين تغييرات موقع النسخ المتماثل من هنا. يتم إجراء التغييرات مرئية في موقع النسخ المتماثل.";
+$lang['note_add_new_epin_page'] = "يمكن إضافة دبابيس E الجديدة وهي صالحة حتى تاريخ انتهاء الصلاحية المحدد. يجب أن يكون تاريخ الانتهاء أكبر من أو يساوي التاريخ الحالي.";
+
+$lang['to_date_greater_than_from_date'] = "يجب أن يكون التاريخ أكبر من التاريخ";
+$lang['digits_only'] = "أرقام فقط";
+$lang['expire_date_greater_current_date'] = "يجب أن يكون تاريخ الانتهاء أكبر من أو يساوي التاريخ الحالي";
+
+$lang['upgrade_leg'] = "اللجنة الثنائية من خلال ترقية";
+$lang['upgrade_level_commission'] = "مستوى المفوضية من خلال ترقية";
+
+$lang['donation'] = "هبة";
+
+$lang['you_have_n_order'] = "لديك %s طلب جديد";
+$lang['you_have_no_orders'] = "ليس لديك طلب جديد";
+$lang['new_order_from'] = "شراء جديد من";
+$lang['you_have_no_orders'] = "لا مشتريات جديدة";
+$lang['see_all_orders'] = "عرض جميع الطلبات";
+$lang['note_cron_status'] = "هذا الخيار هو لتشغيل كرون يدويا.";
+$lang['order_notification'] = "إخطار الطلب";
+$lang['payment_method_not_available'] = "طريقة الدفع غير متاحة";
+$lang['bonus'] = "علاوة";
+
+$lang['given_donation'] = "نظرا للتبرع";
+$lang['send_to'] = "ارسل الى";
+$lang['missed_donation'] = "التبرع المفقود";
+$lang['donated_user'] = "تبرع المستخدم";
+$lang['values_greater_than_0'] = "الرجاء إدخال قيمة أكبر من 0";
+
+$lang['package_validity'] = "صلاحية الحزمة";
+$lang['blockchain_only_in_live'] = "دفع blockchain المتاحة في وضع العيش فقط!";
+$lang['enter_min_digits'] = "يرجى إدخال ما لا يقل عن {0} خانة.";
+$lang['enter_max_digits'] = "الرجاء إدخال أكثر من {0} خانة.";
+$lang['personal_data_report'] = "تصدير البيانات الشخصية";
+$lang['personal_data_export'] = "تصدير البيانات";
+$lang['about'] = "حول";
+$lang['commission_details'] = "تفاصيل العمولة";
+$lang['activities'] = "أنشطة";
+$lang['referal_count'] = "الدعوات";
+$lang['date'] = "تاريخ";
+$lang['amount_type'] = "نوع المبلغ";
+$lang['ip_address'] = "عنوان IP";
+$lang['activity'] = "نشاط";
+$lang['you_have_reached_max_upload_limit'] = "لقد وصلت إلى الحد الأقصى للتحميل.";
+$lang['invalid_file_name'] = "اسم الملف غير صالح.";
+
+$lang['mail_gun'] = "حالة بندقية البريد ";
+$lang['otp_expired'] = "انتهت صلاحية جلسة OTP الخاصة بك";
+$lang['otp_required'] = "يرجى إدخال OTP";
+$lang['enter_otp'] = "أدخل OTP";
+$lang['otp'] = "مكتب المدعي العام";
+$lang['verify'] = "التحقق";
+$lang['otp_error'] = "حدث خطأ. حاول مرة اخرى!";
+$lang['invalid_otp'] = "غير صالح OTP. حاول مرة اخرى!";
+$lang['you_must_enter_otp'] = "مطلوب مكتب المدعي العام";
+$lang['otp_is_numeric'] = "OTP رقمي";
+$lang['credited_for_pin_purchase_refund'] = "قروض لاسترداد شراء دبوس";
+$lang['blog'] = "مدونة";
+$lang['phone'] = "هاتف";
+$lang['skype_id'] = "هوية السكايب";
+
+$lang['tooltip'] = "تلميح";
+$lang['note_autoresponder'] = "يمكن للنظام إضافة رسائل إلكترونية تلقائية عن طريق تحديد الموضوع والمحتوى والتاريخ. سيقوم النظام بإرسال البريد الإلكتروني تلقائيًا إلى جميع العملاء المتوقعين في التاريخ المحدد.";
+
+$lang['sofort_only_in_live'] = "دفعة Sofort المتاحة في الوضع المباشر فقط";
+
+$lang['your_product_currently_not_available'] = "منتجك غير متوفر حاليا !!";
+$lang['GDPR'] = "GDPR";
+$lang['forget_me_request'] = "طلب للنسيان";
+$lang['forget'] = "ننسى";
+$lang['no_request_found'] = "لم يتم العثور على طلب";
+$lang['forget_request'] = "نسيت الطلبات";
+$lang['date_of_request'] = "تاريخ الطلب";
+$lang['already_requested'] = "نسيت الطلب المرسلة بالفعل.";
+$lang['forget_request_sent'] = "تم إرسال طلب النسيان بنجاح.";
+$lang['forget_request_approved_success'] = "نسيان طلب الموافقة بنجاح.";
+$lang['forget_request_approved_failed'] = "فشل ننسى طلب الموافقة.";
+$lang['note_forget_me_request'] = "يمكن للمستخدم إرسال طلب إلى المشرف لحذف جميع البيانات الشخصية عن هذا المستخدم.";
+$lang['note_forget_user'] = "يمكن أن يقبل المشرف نسيان طلبات المستخدمين. بمجرد الموافقة ، ستتم إزالة جميع البيانات الشخصية المتعلقة بهذا المستخدم.";
+$lang['kyc_not_uploaded_for'] = "لم يتم العثور على KYC";
+$lang['kyc_not_uploaded'] = "التفاصيل الخاصة بك ليست KYC التحقق منها";
+$lang['xup_commission'] = "لجنة X-UP";
+$lang['you_have_reached_maximum_unpaid_address'] = "لقد وصلت إلى الحد الأقصى للعنوان غير المدفوع في محفظتك";
+$lang['payment_not_available_now'] = "الدفع غير متوفر الآن.";
+$lang['resend'] = "إعادة إرسال";
+$lang['waiting_reply'] = "انتظار الرد";
+$lang['The_filetype_you_are_attempting_to_upload_is_not_allowed'] = "غير مسموح باستخدام filetype الذي تحاول تحميله";
+$lang['upload_file_exceeds_limit_msg'] = "يتجاوز الملف الذي تم تحميله الحد الأقصى للحجم المسموح به في ملف تهيئة PHP";
+$lang['your_request_has_been_accepted_we_will_send_you_confirmation_mail_please_follow_that_instruction'] = "لقد تم قبول طلبك وسنرسل لك بريد تأكيد ، يرجى اتباع هذه التعليمات";
+$lang['free_package'] = "حزمة مجانية";
+
+$lang['no_data'] = "لايوجد بيانات";
+
+$lang['squareup_payment'] = "دفع مربع";
+$lang['squareup'] = "سدد حسابا";
+$lang['invalid_card_data'] = "بيانات بطاقة غير صالحة";
+$lang['check_availability'] = "التحقق من الصلاحية";
+$lang['close'] = "قريب";
+$lang['change'] = "يتغيرون";
+$lang['remove'] = "إزالة";
+
+$lang['matching_bonus'] = "مكافأة مطابقة";
+$lang['matching_bonus_purchase'] = "مكافأة مطابقة من خلال الشراء";
+$lang['matching_bonus_upgrade'] = "مكافأة مطابقة عن طريق الترقية";
+$lang['pool_bonus'] = "مكافأة بركة";
+$lang['fast_start_bonus'] = "مكافأة البدء السريع";
+$lang['vacation_fund'] = "صندوق الإجازات";
+$lang['education_fund'] = "صندوق التعليم";
+$lang['car_fund'] = "صندوق السيارة";
+$lang['house_fund'] = "صندوق المنزل";
+
+$lang['manage_category'] = "إدارة الفئة";
+$lang['deposit_category'] = "فئة الايداع";
+
+$lang['active'] = "نشيط";
+$lang['inactive'] = "غير نشط";
+$lang['clear'] = "واضح";
+
+$lang['credited'] = "الفضل";
+$lang['debited'] = "خصم";
+$lang['any'] = "أي";
+$lang['this_year'] = "هذا العام";
+$lang['this_month'] = "هذا الشهر";
+$lang['over_all'] = "بصورة شاملة";
+$lang['overall'] = "بصورة شاملة";
+$lang['category'] = "الفئة";
+$lang['you_have_n_news'] = "لديك %s أخبار جديدة";
+
+$lang['board'] = "مجلس";
+$lang['table'] = "الطاولة";
+$lang['matrix'] = "مصفوفة";
+$lang['general'] = "جنرال لواء";
+$lang['compensation'] = "تعويضات";
+$lang['rank'] = "مرتبة";
+$lang['payment'] = "دفع";
+$lang['blocktrail_only_in_live'] = "دفع Blocktrail متوفر في الوضع المباشر فقط";
+$lang['No_Details_Found'] = "لم يتم العثور على تفاصيل";
+$lang['ideal_imagesize_light'] = "البعد المثالي لصورة خلفية الشعار: %s";
+$lang['ideal_imagesize_dark'] = "البعد المثالي لصورة الخلفية المظلمة: %s";
+$lang['ideal_imagesize_collapsed'] = "البعد المثالي للصورة المنهارة: %s";
+$lang['ideal_imagesize_favicon'] = "البعد المثالي للصورة في فافيكون: %s";
+$lang['allowed_type'] = "أنواع الملفات المسموح بها:";
+$lang['ideal_imagesize_banner'] = "البعد المثالي للصورة لافتة: %s";
+$lang['ideal_imagesize_profile'] = "البعد المثالي لصورة الملف الشخصي: %s";
+$lang['max_size'] = "الحجم الأقصى المسموح به: %s";
+$lang['ideal_imagesize_product'] = "البعد المثالي للصورة للمنتج: %s";
+$lang['ideal_imagesize_news'] = "البعد المثالي للصورة للأخبار: %s";
+
+
+$lang['placement'] = "تحديد مستوى";
+$lang['sponsor'] = "كفيل";
+$lang['current_package'] = "الرزمة الحالية";
+$lang['current_rank'] = "الرتبة الحالية";
+$lang['view_sponsor'] = "عرض الراعي";
+$lang['more_info'] = "المزيد من التفاصيل";
+$lang['view_bank_receipt'] = "عرض استلام البنك";
+$lang['payout_released'] = "دفع تعويضات الافراج";
+
+$lang['date_ago'] = "منذ";
+$lang['date_to_go'] = "توجو";
+$lang['date_second'] = "ثانيا";
+$lang['date_minute'] = "دقيقة";
+$lang['date_hour'] = "ساعة";
+$lang['date_day'] = "يوم";
+$lang['date_week'] = "أسبوع";
+$lang['date_month'] = "شهر";
+$lang['date_year'] = "عام";
+$lang['date_decade'] = "عقد";
+$lang['date_seconds'] = "ثواني";
+$lang['date_minutes'] = "الدقائق";
+$lang['date_hours'] = "ساعات";
+$lang['date_days'] = "أيام";
+$lang['date_weeks'] = "أسابيع";
+$lang['date_months'] = "الشهور";
+$lang['date_years'] = "سنوات";
+$lang['date_decades'] = "عقود";
+$lang['api_credential'] = "مفتاح API";
+$lang['delete'] = "حذف";
+
+$lang['email_verification_required'] = "التحقق من البريد الإلكتروني مطلوب";
+$lang['subscription_expired'] = "صلاحية الاشتراك";
+$lang['subscription_config'] = "تكوين الاشتراك";
+$lang['subscription'] = "اشتراك";
+$lang['period'] = "فترة";
+
+$lang['based_on'] = "مرتكز على";
+$lang['disable_registration'] = "تعطيل التسجيل للمشتركين منتهية الصلاحية الاشتراك";
+$lang['disable_payout'] = "تعطيل طلب الدفع للمشتركين منتهية الصلاحية الاشتراك";
+
+$lang['personal_pv'] = "PV الشخصية";
+$lang['group_pv'] = "مجموعة PV";
+$lang['generated_by'] = "تم إنشاؤها بواسطة";
+$lang['pv_details'] = "التفاصيل الكهروضوئية";
+$lang['pv'] = "PV";
+$lang['description'] = "وصف";
+$lang['package_upgrade'] = "ترقية الحزمة";
+$lang['total_pv'] = "مجموع PV الشخصية";
+$lang['total_gpv'] = "مجموع المجموعة PV";
+
+//$lang['top_default_banner'] = "أعلى لافتة افتراضية";
+$lang['edit_logo'] = "تحرير الشعار";
+
+$lang['default_content'] = "المحتوى الافتراضي";
+//$lang['user_content'] = "محتوى المستخدم";
+$lang['fund_transfer_fee'] = "رسوم تحويل الأموال";
+$lang['top_default_banner'] = "بانر علوي (افتراضي)";
+$lang['default_content_replica'] = "محتوى النسخة المتماثلة (افتراضي)";
+$lang['user_content'] = "محتوى النسخة المتماثلة";
+$lang['reset'] = "إعادة ضبط";
+$lang['copy_clipboard'] = "نسخ إلى الحافظة";
+$lang['commission_type'] = "نوع العمولة";
+
+$lang['you_are_viewing_shared_demo_multiple_users_may_try_this_demo_simultaneously'] = "أنت تشاهد العرض المشترك. يمكن لعدة مستخدمين تجربة هذا العرض التوضيحي في وقت واحد";
+$lang['try'] = "محاولة";
+$lang['custom_demo'] = "عرض مخصص";
+$lang['as_per_your_configurations'] = "حسب التكوينات الخاصة بك.";
+$lang['custom_demo_will_be_automatically_deleted_after_48_hours_unless_upgraded'] = "سيتم حذف العرض التوضيحي المخصص تلقائيًا بعد 48 ساعة ما لم تتم ترقيته.";
+$lang['you_can_upgrade_custom_demo_to_one_month_or_can_purchase_the_software'] = "يمكنك ترقية العرض التوضيحي المخصص إلى شهر واحد أو يمكنك شراء البرنامج.";
+$lang['once_the_demo_is_ready_you_can_simply_move_the_demo_to_your_own_domain_name'] = "بمجرد أن يصبح العرض التوضيحي جاهزًا ، يمكنك ببساطة نقل العرض التوضيحي إلى اسم المجال الخاص بك.";
+$lang['click_here_to_place_a'] = "انقر هنا لوضع ملف";
+$lang['feedback_for_support'] = "ملاحظات للحصول على الدعم";
+$lang['pending_upgrades'] = "الترقيات المعلقة";
+
+$lang['commission_settings'] = "إعدادات العمولة";
+$lang['binary_max'] = "أقصى عدد ثنائي";
+$lang['gold_leg_count'] = "عد الساق الذهبية";
+$lang['max_agent_reached'] = "تم بلوغ الحد الأقصى للوكيل";
+$lang['User Name'] = "اسم االمستخدم";
+$lang['Country'] = "دولة";
+$lang['total_wallet_amount'] = "إجمالي مبلغ المحفظة";
+$lang['founder_bonus'] = "مكافأة المؤسس";
+$lang['company_bonus'] = "مكافأة الشركة";
+$lang['custom_wallet'] = "المحفظة المخصصة";
+$lang['from_name'] = "من الاسم";
+$lang['wallet_amount'] = "مبلغ المحفظة";
+$lang['wallet_type'] = "نوع المحفظة";
+$lang['agent_wallet'] = "وكيل المحفظة";
+$lang['payout'] = "سيصرف";
+$lang['agent_user_name'] = "اسم مستخدم الوكيل";
+$lang['agent_wallet_report'] = "تقرير المحفظة الوكيل";
+$lang['package_type'] = "نوع الحزمة";
+$lang['normal_pack'] = "الباقة العادية";
+$lang['subscription_amount'] = "مبلغ الاشتراك";
+$lang['subscription_date'] = "تاريخ الاشتراك";
+$lang['subscription_report'] = "تقرير الاشتراك";
+$lang['free_subscription'] = "اشتراك مجاني";
+$lang ['founders_pool'] = "تجمع المؤسسين";
+$lang ['gold_pool'] = "بركة الذهب";
+$lang ['ruby_pool'] = "تجمع روبي";
+$lang ['diamond_pool'] = "بركة الماس";
+$lang ['legend_pool'] = "لعبة Legend Pool";
+$lang ['owner_package_limit_exceeded'] = "تجاوز حد حزمة المؤسسين";
+$lang['Rank Promo']='ترويج الترتيب';
+$lang['group_pv_per_leg']="المجموعة PV لكل مباراة";
+$lang['travel_voucher']="قسيمة السفر";
+$lang['rank_promo_bonus']="مكافأة ترويج الرتبة";
+$lang['payment_method'] = "طريقة الدفع او السداد";
+$lang['maxout_days_counter']="ماكس خارج عداد الأيام";
+$lang['agent_list'] = "قائمة الوكيل";
+$lang['choose_user_for_gifting']="اختر المستخدم للإهداء";
+$lang['register_board']="تسجيل اللوحة";
+$lang['registration_failed']="فشل التسجيل";
+$lang['registration_completed']="اكتمل التسجيل";

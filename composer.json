@@ -1,0 +1,18 @@
+{
+    "require": {
+        "authy/php": "2.*",
+        "mailgun/mailgun-php": "^2.3",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4",
+        "phpoffice/phpspreadsheet": "^1.5",
+        "square/connect": "^2.20181212",
+        "sofort/sofortlib-php": "^3.3",
+        "authorizenet/authorizenet": "^2.0",
+        "faker": "^1.9"
+    },
+   "autoload": {
+       
+   }
+
+   
+}
